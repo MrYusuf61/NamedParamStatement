@@ -8,7 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-
+/**
+* Source: http://stackoverflow.com/a/20644736
+*/
 public class NamedParamStatement {
     public NamedParamStatement(Connection conn, String sql) throws SQLException {
         int pos;
